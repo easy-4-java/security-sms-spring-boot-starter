@@ -430,7 +430,8 @@
 
         <dependencies>
             
-            <!-- Commons项目中用来处理IO的一些工具类包 -->
+            
+<!-- Commons项目中用来处理IO的一些工具类包 -->
             <!-- For Commons IO -->
             <dependency>
                 <groupId>commons-io</groupId>
@@ -446,27 +447,27 @@
             </dependency>
             <!-- Source: https://github.com/easy-4-java/jwt-issuer-api — easy4j jwt-issuer-api -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>jwt-issuer-api</artifactId>
                 <version>${jwt-issuer.version}</version>
             </dependency>
             <!-- Source: https://github.com/easy-4-java/jwt-issuer-with-jjwt — easy4j jwt-issuer-with-jjwt -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>jwt-issuer-with-jjwt</artifactId>
                 <version>${jwt-issuer.version}</version>
                 <scope>provided</scope>
             </dependency>
             <!-- Source: https://github.com/easy-4-java/jwt-issuer-with-nimbus — easy4j jwt-issuer-with-nimbus -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>jwt-issuer-with-nimbus</artifactId>
                 <version>${jwt-issuer.version}</version>
                 <scope>provided</scope>
             </dependency>
             <!-- https://github.com/hiwepy/security-biz-spring-boot-starter -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>security-biz-spring-boot-starter</artifactId>
                 <version>${spring-security-biz.version}</version>
             </dependency>
@@ -475,6 +476,13 @@
     </dependencyManagement>
     
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+
         
         <!-- Java Servlet API -->
         <!-- For Servlet Api -->
@@ -548,24 +556,24 @@
         </dependency>
         <!-- Source: https://github.com/easy-4-java/jwt-issuer-api — easy4j jwt-issuer-api -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>jwt-issuer-api</artifactId>
         </dependency>
         <!-- Source: https://github.com/easy-4-java/jwt-issuer-with-jjwt — easy4j jwt-issuer-with-jjwt -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>jwt-issuer-with-jjwt</artifactId>
             <scope>provided</scope>
         </dependency>
         <!-- Source: https://github.com/easy-4-java/jwt-issuer-with-nimbus — easy4j jwt-issuer-with-nimbus -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>jwt-issuer-with-nimbus</artifactId>
             <scope>provided</scope>
         </dependency>
         <!-- https://github.com/hiwepy/security-biz-spring-boot-starter -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>security-biz-spring-boot-starter</artifactId>
         </dependency>
         
