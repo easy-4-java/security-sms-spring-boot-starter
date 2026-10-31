@@ -431,12 +431,6 @@
         <dependencies>
             
             
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
-            <scope>provided</scope>
-        </dependency>
 <!-- Commons项目中用来处理IO的一些工具类包 -->
             <!-- For Commons IO -->
             <dependency>
@@ -482,6 +476,13 @@
     </dependencyManagement>
     
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+
         
         <!-- Java Servlet API -->
         <!-- For Servlet Api -->
